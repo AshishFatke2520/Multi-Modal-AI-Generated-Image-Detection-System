@@ -1,5 +1,5 @@
 from pydantic_settings import BaseSettings
-from typing import List
+from typing import List, Optional
 
 class Settings(BaseSettings):
     PROJECT_NAME: str = "DeepMediaCheck"
@@ -20,7 +20,7 @@ class Settings(BaseSettings):
 
     # Database & Security
     MONGO_URI: str = "mongodb://localhost:27017" # Default to local, user can override in .env
-    MONGODB_URL: str = None # Alias for users who put MONGODB_URL in .env
+    MONGODB_URL: Optional[str] = None # Alias for users who put MONGODB_URL in .env
     DATABASE_NAME: str = "deepmediacheck"
     SECRET_KEY: str = "your-secret-key-change-it-in-production"
     ALGORITHM: str = "HS256"
