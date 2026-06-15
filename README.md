@@ -1,3 +1,13 @@
+---
+title: DeepMediaCheck
+emoji: 🔍
+colorFrom: blue
+colorTo: indigo
+sdk: docker
+app_port: 7860
+pinned: false
+---
+
 # DeepMediaCheck: AI-Generated Content Detection System
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
