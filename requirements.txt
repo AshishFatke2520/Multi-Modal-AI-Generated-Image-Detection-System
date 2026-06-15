@@ -19,7 +19,8 @@ scikit-learn
 joblib
 pandas
 matplotlib
-google-generativeai
+google-genai
+
 seaborn
 python-jose[cryptography]
 bcrypt
