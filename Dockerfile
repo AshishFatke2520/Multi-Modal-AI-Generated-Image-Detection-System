@@ -1,5 +1,5 @@
 # --- Step 1: Build the React Frontend ---
-FROM node:18-alpine AS frontend-builder
+FROM node:20-alpine AS frontend-builder
 WORKDIR /frontend
 COPY frontend/package*.json ./
 RUN npm install
@@ -16,7 +16,7 @@ WORKDIR /app
 # Install system dependencies needed for OpenCV & PyTorch
 RUN apt-get update && apt-get install -y \
     build-essential \
-    libgl1-mesa-glx \
+    libgl1 \
     libglib2.0-0 \
     && rm -rf /var/lib/apt/lists/*
 
