@@ -1,0 +1,66 @@
+@use 'variables' as *;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $color-bg;
+    color: $color-text;
+    font-family: $font-family-main;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    font-family: inherit;
+}
+
+// Utility Classes
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 $spacing-md;
+}
+
+.text-gradient {
+    background: linear-gradient(90deg, $color-primary, $color-accent);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+// Responsive Utilities
+@media (max-width: 768px) {
+    .hide-mobile {
+        display: none !important;
+    }
+    .flex-col-mobile {
+        flex-direction: column !important;
+        align-items: center !important;
+        text-align: center !important;
+    }
+    .header-nav {
+        flex-direction: column;
+        padding: 1rem !important;
+        gap: 1rem !important;
+    }
+    .header-logo {
+        margin-bottom: 1rem;
+    }
+    .hero-title {
+        font-size: 2.5rem !important;
+    }
+    .hero-buttons {
+        flex-direction: column;
+        gap: 1rem;
+    }
+}

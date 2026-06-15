@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Security & Credentials (API Keys, DB passwords)
+.env
+.env.*
+!.env.example
+
+# Large Data & Machine Learning Outputs (avoid committing heavy binaries/datasets)
+data/
+*.joblib
+*.npy
+*.npz
+*.pkl
+*.h5
+*.onnx
+
+# Environments
+.venv
+env/
+venv/
+ENV/
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# OS / System files
+.DS_Store
+Thumbs.db
+

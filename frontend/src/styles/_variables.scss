@@ -1,0 +1,31 @@
+// Theme Colors (Cyberpunk / Forensics)
+$color-bg: #0a0e17;
+$color-bg-secondary: #111625;
+$color-bg-tertiary: #1a2138;
+
+$color-primary: #00f2ff; // Cyan
+$color-primary-hover: #00c8d4;
+
+$color-accent: #7000ff; // Purple
+$color-success: #00ff88; // Green (Real)
+$color-danger: #ff2a2a; // Red (Fake)
+$color-warning: #ffcc00;
+
+$color-text: #e0e6ed;
+$color-text-dim: #94a3b8;
+
+// Typography
+$font-family-main: 'Inter', system-ui, sans-serif;
+$font-family-mono: 'Space Mono', monospace;
+
+// Spacing
+$spacing-xs: 0.25rem;
+$spacing-sm: 0.5rem;
+$spacing-md: 1rem;
+$spacing-lg: 2rem;
+$spacing-xl: 4rem;
+
+// Borders & Effects
+$border-radius: 8px;
+$box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+$glow-primary: 0 0 15px rgba(0, 242, 255, 0.3);
