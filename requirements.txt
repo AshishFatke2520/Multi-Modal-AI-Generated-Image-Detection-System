@@ -21,3 +21,6 @@ pandas
 matplotlib
 google-generativeai
 seaborn
+python-jose[cryptography]
+bcrypt
+motor
