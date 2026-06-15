@@ -18,6 +18,8 @@ pinned: false
 ![Status](https://img.shields.io/badge/Status-Prototype-yellow)
 ![License](https://img.shields.io/badge/License-MIT-purple)
 
+[![Hugging Face Space](https://img.shields.io/badge/🔍%20Live%20Demo-Hugging%20Face-blue?style=for-the-badge&logo=huggingface)](https://huggingface.co/spaces/AshishFatke2520/DeepMediaCheck)
+
 ![DeepMediaCheck Banner](docs/images/banner.png)
 
 ## 📌 Overview
